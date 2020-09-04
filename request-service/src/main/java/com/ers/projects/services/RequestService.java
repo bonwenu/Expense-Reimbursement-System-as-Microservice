@@ -15,8 +15,7 @@ import com.ers.projects.repositories.RequestRepo;
 public class RequestService {
 	
 	@Autowired
-	RequestRepo requestRepo;
-	
+	private RequestRepo requestRepo;
 	private Logger log = Logger.getLogger(RequestService.class);
 	
 	
@@ -36,7 +35,7 @@ public class RequestService {
 	}
 
 	public List<Request> getRequestsByEmpId(int id) {
-		List<Request> requests = requestRepo.findByEmpId(id);
+		List<Request> requests = requestRepo.findByWorkerId(id);
 		
 		Collections.sort(requests, Comparator.comparing(Request::getReqId));
 		return requests;
@@ -76,7 +75,7 @@ public class RequestService {
 
 
 	public List<Request> getPendingById(int id, String status) {
-		List<Request> requests = requestRepo.findByEmpIdAndStatus(id, status);
+		List<Request> requests = requestRepo.findByWorkerIdAndStatus(id, status);
 		
 		Collections.sort(requests, Comparator.comparing(Request::getReqId));
 		return requests;
@@ -84,7 +83,7 @@ public class RequestService {
 
 
 	public List<Request> getNonPendingById(int id, String status) {
-		List<Request> requests = requestRepo.findByEmpIdAndStatusNot(id, status);
+		List<Request> requests = requestRepo.findByWorkerIdAndStatusNot(id, status);
 		
 		Collections.sort(requests, Comparator.comparing(Request::getReqId));
 		return requests;
