@@ -1,2 +1,43 @@
 2020-09-04 16:37:31 INFO  WorkerService:29 - List of all workers was successfuly gathered
 2020-09-04 16:37:31 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:40:17 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 18:40:17 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:49:08 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 18:49:08 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:50:12 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 18:50:12 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:50:30 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 18:50:30 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:51:16 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 18:51:16 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:51:54 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 18:51:54 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:52:51 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 18:52:51 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 18:53:37 INFO  WorkerController:46 - Get request for worker with ID: 1 was called
+2020-09-04 18:53:37 INFO  WorkerService:44 - Worker with ID: 1 not found.
+2020-09-04 18:53:37 INFO  WorkerController:53 - Worker = Worker [workerId=1, lastName=Ten, firstName=Ben, username=benjamin721, passCode=benchee5151, title=Data Coordiator, reportsTo=10, hireDate=1/1/2019, streetAddress=41 Randy Pass, city=Boston, state=Massachusetts, zip=9999, phone=611-772-4221, email=bpavluk2@admin.ch] was sent
+2020-09-04 19:07:52 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:07:52 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 19:12:38 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:12:38 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 19:14:41 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:14:41 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 19:15:02 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-04 19:15:02 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-04 19:15:12 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:15:12 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 19:15:47 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:15:47 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 19:16:22 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:16:22 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 19:16:28 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-04 19:16:28 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-04 19:18:19 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-04 19:18:19 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-04 19:18:43 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-04 19:18:43 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-04 19:19:20 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:19:20 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 19:19:56 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 19:19:56 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
