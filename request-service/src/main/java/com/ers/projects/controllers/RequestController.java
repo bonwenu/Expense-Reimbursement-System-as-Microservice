@@ -49,13 +49,13 @@ public class RequestController {
 	
 	
 	@GetMapping("/non-pending/{id}")
-	public List<Request> getNonPendingById(@PathVariable int id) {
+	public List<Request> getNonPendingByWorkerId(@PathVariable int id) {
 		log.info("List of non-pending requests for worker with ID:" + id + " was called for and information was sent to caller");
 		return rs.getNonPendingById(id, "PENDING");
 	}
 	
 	@GetMapping("/pending/{id}")
-	public List<Request> getPendingById(@PathVariable int id) {
+	public List<Request> getPendingByWorkerId(@PathVariable int id) {
 		log.info("List of pending requests for worker with ID:" + id + " was called for and information was sent to caller");
 		return rs.getPendingById(id, "PENDING");
 	}

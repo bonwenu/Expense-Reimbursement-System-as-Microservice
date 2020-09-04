@@ -17,7 +17,7 @@ public class Request  {
 	//@GeneratedValue(strategy = GenerationType.AUTO, generator = "request_generator")
 	//@SequenceGenerator(name="request_generator", sequenceName = "Request_seq")
 	private int reqId;
-	private int empId;
+	private int workerId;
 	private double amount;
 	private String description;
 	private String status;
@@ -31,28 +31,28 @@ public class Request  {
 		this.reqId = id;
 	}
 	
-	public Request(int reqID, int empId, double amount, String description, String status, String resolvedBy) {
+	public Request(int reqID, int workerId, double amount, String description, String status, String resolvedBy) {
 		super();
 		this.reqId = reqID;
-		this.empId = empId;
+		this.workerId = workerId;
 		this.amount = amount;
 		this.description = description;
 		this.status = status;
 		this.resolvedBy = resolvedBy;
 	}
 	
-	public Request(int empId, double amount, String description, String status, String resolvedBy) {
+	public Request(int workerId, double amount, String description, String status, String resolvedBy) {
 		super();
-		this.empId = empId;
+		this.workerId = workerId;
 		this.amount = amount;
 		this.description = description;
 		this.status = status;
 		this.resolvedBy = resolvedBy;
 	}
 
-	public Request(int empId, String status, String resolvedBy) {
+	public Request(int workerId, String status, String resolvedBy) {
 		
-		this.empId = empId;
+		this.workerId = workerId;
 		this.status = status;
 		this.resolvedBy = resolvedBy;
 	}
@@ -65,12 +65,12 @@ public class Request  {
 		this.reqId = reqID;
 	}
 
-	public int getEmpId() {
-		return empId;
+	public int getworkerId() {
+		return workerId;
 	}
 
-	public void setEmpId(int empId) {
-		this.empId = empId;
+	public void setworkerId(int workerId) {
+		this.workerId = workerId;
 	}
 
 	public double getAmount() {
@@ -117,7 +117,7 @@ public class Request  {
 		temp = Double.doubleToLongBits(amount);
 		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result + ((description == null) ? 0 : description.hashCode());
-		result = prime * result + empId;
+		result = prime * result + workerId;
 		result = prime * result + reqId;
 		result = prime * result + ((resolvedBy == null) ? 0 : resolvedBy.hashCode());
 		result = prime * result + ((status == null) ? 0 : status.hashCode());
@@ -142,7 +142,7 @@ public class Request  {
 				return false;
 		} else if (!description.equals(other.description))
 			return false;
-		if (empId != other.empId)
+		if (workerId != other.workerId)
 			return false;
 		if (reqId != other.reqId)
 			return false;
@@ -161,7 +161,7 @@ public class Request  {
 
 	@Override
 	public String toString() {
-		return "Request [reqId=" + reqId + ", empId=" + empId + ", amount=" + amount + ", description=" + description
+		return "Request [reqId=" + reqId + ", workerId=" + workerId + ", amount=" + amount + ", description=" + description
 				+ ", status=" + status + ", resolvedBy=" + resolvedBy + "]";
 	}
 
