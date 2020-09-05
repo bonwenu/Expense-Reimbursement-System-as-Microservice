@@ -41,3 +41,149 @@
 2020-09-04 19:19:20 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
 2020-09-04 19:19:56 INFO  WorkerService:29 - List of all workers was successfuly gathered
 2020-09-04 19:19:56 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-04 23:45:54 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-04 23:45:54 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-05 01:25:52 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:25:52 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-05 01:26:11 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:26:11 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:26:11 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:32:20 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:32:20 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:32:20 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:32:22 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:32:22 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:32:22 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:32:33 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:32:33 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:32:33 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:32:43 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:32:43 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:32:43 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:35:59 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:35:59 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:35:59 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:36:42 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:36:42 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:36:42 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:36:49 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:36:49 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:36:49 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:37:43 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:37:43 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:37:43 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:39:45 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:39:45 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:39:45 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:40:23 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:40:23 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:40:23 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:41:34 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:41:34 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:41:34 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:42:34 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:42:34 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:42:34 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:43:05 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:43:05 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:43:05 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:43:24 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:43:24 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:43:24 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:44:51 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:44:51 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:44:51 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:46:47 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:46:47 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:46:47 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:47:17 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:47:17 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:47:17 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:47:32 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:47:32 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:47:32 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:48:30 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:48:30 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:48:30 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:49:23 INFO  WorkerController:68 - A request to update a worker personal information was received
+2020-09-05 01:49:23 INFO  WorkerService:57 - Worker with ID: 10 sucessfully updated
+2020-09-05 01:49:23 INFO  WorkerController:70 - Worker [workerId=10, lastName=Dover, firstName=Plus, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] updated and sent to caller
+2020-09-05 01:49:36 INFO  WorkerController:68 - A request to update a worker personal information was received
+2020-09-05 01:49:36 INFO  WorkerService:57 - Worker with ID: 10 sucessfully updated
+2020-09-05 01:49:36 INFO  WorkerController:70 - Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] updated and sent to caller
+2020-09-05 01:54:52 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:54:52 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:54:52 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:55:09 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:55:09 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:55:09 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:55:13 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:55:13 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:55:13 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:55:33 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:55:33 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:55:33 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:55:46 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:55:46 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:55:46 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:56:09 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:56:09 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:56:09 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:56:24 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:56:24 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:56:24 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:57:22 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:57:22 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:57:22 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 01:57:42 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 01:57:42 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 01:57:42 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:00:14 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-05 02:00:14 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-05 02:02:51 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-05 02:02:51 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-05 02:03:12 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-05 02:03:12 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-05 02:04:28 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-05 02:04:28 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-05 02:06:05 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-05 02:06:05 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-05 02:07:11 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:07:11 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-05 02:11:45 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:11:45 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:11:45 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:13:12 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:13:12 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:13:12 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:14:08 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:14:08 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:14:08 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:14:32 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:14:32 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:14:32 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:14:46 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:14:46 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:14:46 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:15:51 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:15:51 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:15:51 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:17:02 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:17:02 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:17:02 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:17:16 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:17:16 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:17:16 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:17:22 INFO  WorkerController:46 - Get request for worker with ID: 10 was called
+2020-09-05 02:17:22 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:17:22 INFO  WorkerController:53 - Worker = Worker [workerId=10, lastName=Dover, firstName=Gwen, username=benjamin720, passCode=benchee5050, title=Manager, reportsTo=0, hireDate=1/1/2016, streetAddress=43255 Pennman, city=St Louis, state=Missouri, zip=77544, phone=617-772-4221, email=ben10@yahoo.com] was sent
+2020-09-05 02:19:50 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:19:50 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-05 02:21:10 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-05 02:21:10 INFO  WorkerController:39 - List of all workers was called for and sent successfully.
+2020-09-05 02:21:17 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:21:17 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-05 02:22:23 INFO  WorkerService:44 - Worker with ID: 10 not found.
+2020-09-05 02:22:23 INFO  WorkerController:62 - Name: Gwen Dover sent
+2020-09-05 02:22:27 INFO  WorkerService:29 - List of all workers was successfuly gathered
+2020-09-05 02:22:27 INFO  WorkerController:39 - List of all workers was called for and sent successfully.

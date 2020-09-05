@@ -12,12 +12,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body>
-    <hr style= "border-width:1mm ;border-color:rgba(8, 4, 59, 0.24);background-color:rgb(32, 43, 138); height:3mm">
+<body class = "blue">
+    <hr class = "top">
     
     <h2 style ="text-align: left; padding-left: 4mm" ><b>Reimbursement Request (Management)</b></h2>
     
-    <hr style="border-width:1mm ;border-color:rgba(8, 4, 59, 0.24);background-color:rgb(32, 43, 138); height:2.5mm">
+    <hr class = "bottom">
 	<br> 
     
     <button style = 'margin-left: 20px' class="btn btn-primary" routerLink="/mHome" type="button">Back</button>
@@ -27,7 +27,8 @@
     <table class = "table table-striped" id = "emp-table">
         <tr>
             <th>Worker ID</th>
-            <th>Name</th>
+            <th>Last Name</th>
+            <th>First Name</th>
             <th>Title</th>
             <th>Username</th>
             <th>Hire Date</th>
@@ -40,7 +41,8 @@
         </tr>
         <tr *ngFor = "let employee of employees">
             <td>{{employee.workerId}}</td>
-            <td>{{employee.firstName}} {{employee.lastName}}</td>
+            <td>{{employee.lastName}}</td>
+            <td>{{employee.firstName}}</td>
             <td>{{employee.title}}</td>
             <td>{{employee.username}}</td>
             <td>{{employee.hireDate}}</td>

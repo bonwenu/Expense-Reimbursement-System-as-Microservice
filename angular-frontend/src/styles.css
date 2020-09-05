@@ -1,57 +1,41 @@
 /* Created by Benjamin Onwenu on October 4, 2018 */
 @import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
-img.About {
-    float:none; 
-    margin:10px;
+
+div.manager-inner {
+  background-color: rgb(235, 226, 146);
+}
+
+div.manager-outer {
+  float: right; 
+  margin-right: 2in;
+  background-color: rgb(235, 235, 203);
+  border: solid rgb(235, 235, 203) .15in;
+}
+
+div.employee-inner {
+  background-color: rgb(66, 190, 248);;
+}
+div.employee-outer {
+  float: left; 
+  margin-right: 2in;
+  background-color: rgb(182, 232, 255);;
+  border: solid rgb(182, 232, 255) .15in;
+}
+
+ hr.top {
+  border: solid 1mm rgb(253, 253, 162);
+  background-color:rgb(32, 43, 138);
+  height:3mm
  }
- 
- td.thirtyThreeCNoC {
-   border: 1px solid #04376C;
-   border-collapse: collapse;
-   width: 33%;
-   padding: 5px;
-   text-align: center;
-   border-width: 3px;
+
+ hr.bottom {
+  border: solid 1mm rgb(253, 253, 162);
+  background-color:rgb(32, 43, 138);
+  height:2.5mm
  }
- 
- td.thirtyThree {
-   border: 1px solid #04376C;
-   border-collapse: collapse;
-   width: 33%;
-   padding: 5px;
-   border-width: 3px;
-   background-color:#FF9700;
- }
- 
- td.sixtySixL {
-   border: 1px solid #04376C;
-   border-collapse: collapse;
-   width: 66%;
-   text-align: left;
-   border-width: 3px;
- }
- 
- td.sixtySixCO {
-   border: 1px solid #04376C;
-   border-collapse: collapse;
-   width: 66%;
-   text-align: center;
-   border-width: 3px;
-   background-color:#FF9700;
- }
- 
- table#t01 {
-   margin-top:80px;
-   width: 100%;
-   background-color: #689CD2;
-   border-collapse: collapse;
- }
- 
- table#t02 {
-   margin-top:15px;
-   width: 100%;
-   background-color: #689CD2;
-   border-collapse: collapse;
+
+ html {
+  background-color:#689CD2; 
  }
  
  h1{
@@ -86,6 +70,12 @@ img.About {
    background-color:#689CD2; 
    color:black;
  }
+
+ body.blue {
+  background-color:#689CD2; 
+  color:black;
+  padding-top:1px;
+}
  
  li a.navR { 
    display: block; 

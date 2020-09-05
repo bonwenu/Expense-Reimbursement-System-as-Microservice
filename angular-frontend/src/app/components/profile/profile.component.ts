@@ -9,7 +9,7 @@ import { Worker } from '../../models/Worker';
 })
 export class ProfileComponent implements OnInit {
 
-  worker: Worker;
+  worker: Worker = new Worker();
   profileData: Worker;
   // Check if edit was pushed
   editActive: boolean = false;
