@@ -10,19 +10,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body>
-    
-    <hr style= "border-width:1mm ;border-color:rgba(8, 4, 59, 0.24);background-color:rgb(32, 43, 138); height:3mm">
+<body class = "blue"> 
+    <hr class= "top">
     
     <h2 style ="text-align: left; padding-left: 4mm" ><b>Management Home</b></h2>
     
-    <hr style="border-width:1mm ;border-color:rgba(8, 4, 59, 0.24);background-color:rgb(32, 43, 138); height:2.5mm">
+    <hr class = "bottom">
     <br> 
     <br>
     <div >
-        <div style = "float: left;" >
+        <div class = "employee-outer" >
             <h2 style = "text-align:left; margin-left: 0.2in;"><b>Reimbursement Request Options</b></h2>
-        <div style = "background-color: rgb(182, 232, 255);">
+        <div class = "employee-inner">
             <br>
             <button style = 'margin-left: 20px' class="btn btn-primary" routerLink = "/create-new-request" type="button">
                 + Create New Reimbursement Request</button>
@@ -33,9 +32,9 @@
             <br><br>
         </div>
         </div>
-        <div style = "float: right; margin-right: 2in;">
+        <div class = " manager-outer">
             <h2 style = " text-align: right; margin-left: 0.2in; color:rgb(209, 165, 20)"><b>Management Options</b></h2>
-        <div style = " background-color: rgb(255, 248, 182);">
+        <div class = "manager-inner">
         <br>
         <button style = 'margin-left: 20px' class="btn btn-warning" routerLink = "/manager-pending" type="button">View All Pending Requests</button>
             <br><br> 
@@ -49,7 +48,5 @@
     </div>
 </div>
   
-
-    
-</body>
+</body> 
 </html>

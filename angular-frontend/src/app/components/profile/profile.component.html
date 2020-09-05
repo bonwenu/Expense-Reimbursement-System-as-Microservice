@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     
 </head>
-<body>
-    <hr style= "border-width:1mm ;border-color:rgba(8, 4, 59, 0.24);background-color:rgb(32, 43, 138); height:3mm">
+<body class = "blue">
+    <hr class = "top">
     
     <h2 style ="text-align: left; padding-left: 4mm" ><b>Profile</b></h2>
     
-    <hr style="border-width:1mm ;border-color:rgba(8, 4, 59, 0.24);background-color:rgb(32, 43, 138); height:2.5mm">
+    <hr class = "bottom">
 	<br> 
     <div class="container">
     <div class="container">
@@ -62,21 +62,21 @@
         
         <form >
             <label>First Name</label><br>
-            <input [(ngModel)]="employee.firstName" placeholder="{{profileData?.firstName}}" class="form-control" type="text" name="firstName"><br><br>
+            <input [(ngModel)]="worker.firstName" placeholder="{{profileData?.firstName}}" class="form-control" type="text" name="firstName"><br><br>
             <label>Last Name</label><br>
-            <input [(ngModel)]="employee.lastName" placeholder="{{profileData?.lastName}}" class="form-control" type="text" name="lastName"><br><br>
+            <input [(ngModel)]="worker.lastName" placeholder="{{profileData?.lastName}}" class="form-control" type="text" name="lastName"><br><br>
             <label>Street Address</label><br>
-            <input [(ngModel)]="employee.streetAddress" placeholder="{{profileData?.streetAddress}}" class="form-control" type="text" name="street"><br><br>
+            <input [(ngModel)]="worker.streetAddress" placeholder="{{profileData?.streetAddress}}" class="form-control" type="text" name="street"><br><br>
             <label>State</label><br>
-            <input [(ngModel)]="employee.state" placeholder="{{profileData?.state}}" class="form-control" type="text" name="state"><br><br>
+            <input [(ngModel)]="worker.state" placeholder="{{profileData?.state}}" class="form-control" type="text" name="state"><br><br>
             <label>City</label><br>
-            <input [(ngModel)]="employee.city" placeholder="{{profileData?.city}}" class="form-control" type="text" name="city"><br><br>
+            <input [(ngModel)]="worker.city" placeholder="{{profileData?.city}}" class="form-control" type="text" name="city"><br><br>
             <label>Zip Code</label><br>
-            <input [(ngModel)]="employee.zip" placeholder="{{profileData?.zip}}" class="form-control" type="text" name="zip"><br><br>
+            <input [(ngModel)]="worker.zip" placeholder="{{profileData?.zip}}" class="form-control" type="text" name="zip"><br><br>
             <label>Phone</label><br>
-            <input [(ngModel)]="employee.phone" placeholder="{{profileData?.phone}}" class="form-control" type="text" name="phone"><br><br>
+            <input [(ngModel)]="worker.phone" placeholder="{{profileData?.phone}}" class="form-control" type="text" name="phone"><br><br>
             <label>Email</label><br>
-            <input [(ngModel)]="employee.email" placeholder= "{{profileData?.email}}" class="form-control" type="text" name="email"><br><br>
+            <input [(ngModel)]="worker.email" placeholder= "{{profileData?.email}}" class="form-control" type="text" name="email"><br><br>
             <div style = "text-align: right;">
                 <button style = "margin-right: 0.7in;" (click)=cancel() class="btn btn-danger">Cancel</button> 
                 <button (click)=applyChanges() class="btn btn-primary">Save</button> 
