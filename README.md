@@ -5,7 +5,16 @@ expenses incurred while on company time. All employees in the company can login 
 submit requests for reimbursement and view their past tickets and pending requests. Finance
 managers can log in and view all reimbursement requests and history for all employees in the
 company. Finance managers are authorized to approve and deny requests for expense
-reimbursement.  
+reimbursement.
+
+- Designed database schema and relationships using Spring ORM/Hibernate.
+- Implemented the Front Controller design pattern by using Spring MVC.
+- Created client pages using HTML, CSS, Typescript by using Angular Framework.
+- Populated client pages with information by making calls to Rest API.
+- Tested both validation methods and DAO methods using JUnit framework.
+- Deployed Front End to AWS S3 bucket and microservice to AWS EC2.
+
+## Features 
 
 ### An Employee can:
 - Login.
