@@ -9,7 +9,7 @@ import { EmployeeHomeComponent } from './components/employee-home/employee-home.
 import { ManagerHomeComponent } from './components/manager-home/manager-home.component';
 import { CreateRequestsComponent } from './components/create-requests/create-requests.component';
 import { EmployeeListComponent } from './components/employee-list/employee-list.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { EPendingRequestsComponent } from './components/e-pending-requests/e-pending-requests.component';
 import { EProcessedRequestsComponent } from './components/e-processed-requests/e-processed-requests.component';
@@ -23,6 +23,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { AuthGuardService } from './services/auth-guard.service';
 import { RequestService } from './services/request.service';
 import { WorkerService } from './services/worker.service';
+import { BasicAuthHtppInterceptorService } from './services/basic-auth-htpp-interceptor.service';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,12 @@ import { WorkerService } from './services/worker.service';
   providers: [
     AuthGuardService, 
     RequestService, 
-    WorkerService
+    WorkerService,
+    {  
+      provide:HTTP_INTERCEPTORS, 
+      useClass:BasicAuthHtppInterceptorService,
+      multi:true 
+    }
   ],
   bootstrap: [AppComponent]
 })
