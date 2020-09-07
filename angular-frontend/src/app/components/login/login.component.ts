@@ -43,7 +43,6 @@ export class LoginComponent implements OnInit, AfterViewInit  {
     let valid = false;
 
     this.loginservice.authenticate2(this.username, this.password).subscribe((data:Worker) => {
-      console.log(data);
       if(data) {
         let authString = 'Basic ' + btoa('ers_admin:password');
         sessionStorage.setItem('basicauth', authString);
