@@ -16,7 +16,6 @@ export class LoginComponent implements OnInit, AfterViewInit  {
   password:string = '';
   invalidLogin:boolean = false;
   invalidCredentials:boolean = false;
-  users:Worker[];
   worker : Worker;
   title: string;
   id: number;
@@ -35,41 +34,36 @@ export class LoginComponent implements OnInit, AfterViewInit  {
 
     }
     
-    this.workerService.getAllEmployees().subscribe(data => {
-      this.users = data;
-
-    });
-    
   }
 
   ngAfterViewInit() {
-    console.log(sessionStorage.getItem('username') + " is currenyly logged in");
-    console.log("Title: " +sessionStorage.getItem('title'));
-}
+  }
 
   checkLogin() {
-
     let valid = false;
 
-    for(let i = 0; i < this.users.length; i++) {
-      if (this.username === this.users[i].username && this.password === this.users[i].passCode) {
-        this.worker = this.users[i];
-        this.title = this.worker.title;
-        this.id = this.worker.workerId;
+    this.loginservice.authenticate2(this.username, this.password).subscribe((data:Worker) => {
+      console.log(data);
+      if(data) {
+        let authString = 'Basic ' + btoa('ers_admin:password');
+        sessionStorage.setItem('basicauth', authString);
+        sessionStorage.setItem('username', data.username);
+        sessionStorage.setItem('title', data.title);
+        sessionStorage.setItem('workerId', data.workerId.toString());
+        sessionStorage.setItem("loggedAs", "BL Employee");
         valid = true;
-        break;
+        this.authorize();
       }
 
-    }
-    if (valid) {
-      this.authorize();
-      return;
-    }
-    this.invalidCredentials = true;
+      else {
+        this.invalidCredentials = true;
+      }
+    });
   }
-  authorize() {
-    this.loginservice.authenticate(this.username, this.title, this.id) 
+  
+  authorize() { 
     let x = sessionStorage.getItem("title");
+    
     
     if (x === "Manager") { 
       this.router.navigateByUrl("/mHome")

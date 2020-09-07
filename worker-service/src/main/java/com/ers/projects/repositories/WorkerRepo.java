@@ -11,6 +11,6 @@ import com.ers.projects.models.Worker;
 public interface WorkerRepo extends JpaRepository<Worker, Integer> {
 
 	Worker findByWorkerId(int id);
-	
+	Worker findByUsername(String name);
 
 }
