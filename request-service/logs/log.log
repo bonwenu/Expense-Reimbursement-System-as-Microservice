@@ -1,0 +1,143 @@
+2020-09-04 18:53:47 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:53:51 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:54:04 INFO  RequestController:66 - A request to add a request was received
+2020-09-04 18:54:04 INFO  RequestService:47 - Request with ID: 36sucessfully inserted
+2020-09-04 18:54:04 INFO  RequestController:68 - Request [reqId=36, workerId=0, amount=40.0, description=Candy, status=PENDING, resolvedBy=--] created and sent to caller
+2020-09-04 18:54:09 INFO  RequestController:66 - A request to add a request was received
+2020-09-04 18:54:09 INFO  RequestService:47 - Request with ID: 37sucessfully inserted
+2020-09-04 18:54:09 INFO  RequestController:68 - Request [reqId=37, workerId=0, amount=40.0, description=Plumbing, status=PENDING, resolvedBy=--] created and sent to caller
+2020-09-04 18:54:14 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:54:18 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:54:38 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:55:20 INFO  RequestController:66 - A request to add a request was received
+2020-09-04 18:55:20 INFO  RequestService:47 - Request with ID: 38sucessfully inserted
+2020-09-04 18:55:20 INFO  RequestController:68 - Request [reqId=38, workerId=0, amount=40.0, description=Water case for office, status=PENDING, resolvedBy=--] created and sent to caller
+2020-09-04 18:55:39 INFO  RequestController:66 - A request to add a request was received
+2020-09-04 18:55:39 INFO  RequestService:47 - Request with ID: 39sucessfully inserted
+2020-09-04 18:55:39 INFO  RequestController:68 - Request [reqId=39, workerId=0, amount=10.0, description=I dont know, status=PENDING, resolvedBy=--] created and sent to caller
+2020-09-04 18:55:44 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:57:22 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:57:51 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:58:07 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:58:11 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:58:40 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 18:58:57 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:00:36 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:03:33 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:03:42 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:05:05 INFO  RequestController:34 - List of all requests was called for and information was sent to caller
+2020-09-04 19:05:05 INFO  RequestService:30 - List of all requests was successfuly gathered
+2020-09-04 19:05:42 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-04 19:06:15 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:06:27 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:06:32 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:08:08 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:08:10 INFO  RequestController:53 - List of non-pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:08:12 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:08:21 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:09:31 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:09:48 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:10:05 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:10:30 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:10:58 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:11:09 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:11:18 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:11:20 INFO  RequestController:53 - List of non-pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:12:20 INFO  RequestController:53 - List of non-pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:12:24 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:12:27 INFO  RequestController:53 - List of non-pending requests for worker with ID:3 was called for and information was sent to caller
+2020-09-04 19:12:34 INFO  RequestController:53 - List of non-pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:12:36 INFO  RequestController:59 - List of pending requests for worker with ID:2 was called for and information was sent to caller
+2020-09-04 19:12:41 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:12:44 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:12:56 INFO  RequestController:66 - A request to add a request was received
+2020-09-04 19:12:56 INFO  RequestService:47 - Request with ID: 40sucessfully inserted
+2020-09-04 19:12:56 INFO  RequestController:68 - Request [reqId=40, workerId=1, amount=70.0, description=Water case for office, status=PENDING, resolvedBy=--] created and sent to caller
+2020-09-04 19:13:35 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:13:42 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:14:09 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:14:36 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:14:39 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:14:57 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-04 19:14:58 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-04 19:15:02 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-04 19:15:05 INFO  RequestController:75 - A request to update a request was received
+2020-09-04 19:15:05 INFO  RequestService:54 - Request with ID: 1sucessfully updated
+2020-09-04 19:15:05 INFO  RequestController:77 - Request [reqId=1, workerId=2, amount=300.0, description=New printer for office, status=APPROVED, resolvedBy=Gwen Dover] updated and sent to caller
+2020-09-04 19:15:05 INFO  RequestController:78 - New updated list of pending request was sent to caller successfuly
+2020-09-04 19:15:06 INFO  RequestController:75 - A request to update a request was received
+2020-09-04 19:15:06 INFO  RequestService:54 - Request with ID: 4sucessfully updated
+2020-09-04 19:15:06 INFO  RequestController:77 - Request [reqId=4, workerId=6, amount=200.0, description=New printer for office, status=DENIED, resolvedBy=Gwen Dover] updated and sent to caller
+2020-09-04 19:15:06 INFO  RequestController:78 - New updated list of pending request was sent to caller successfuly
+2020-09-04 19:16:28 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-04 19:16:33 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-04 19:16:58 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-04 19:17:18 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:17:18 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:17:57 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:17:57 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:18:19 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-04 19:18:27 INFO  RequestController:75 - A request to update a request was received
+2020-09-04 19:18:27 INFO  RequestService:54 - Request with ID: 40sucessfully updated
+2020-09-04 19:18:27 INFO  RequestController:77 - Request [reqId=40, workerId=1, amount=70.0, description=Water case for office, status=APPROVED, resolvedBy=Gwen Dover] updated and sent to caller
+2020-09-04 19:18:27 INFO  RequestController:78 - New updated list of pending request was sent to caller successfuly
+2020-09-04 19:18:35 INFO  RequestController:59 - List of pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:18:35 INFO  RequestController:53 - List of non-pending requests for worker with ID:1 was called for and information was sent to caller
+2020-09-04 19:18:43 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-05 00:15:34 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 00:16:25 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 00:16:37 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 00:17:50 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 00:21:27 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 00:21:42 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 00:21:48 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 00:21:58 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 01:03:15 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 01:25:49 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 01:25:52 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-05 01:57:54 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 01:57:56 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 01:58:00 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 01:58:01 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 01:58:05 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 02:06:48 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-05 02:07:11 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-05 02:17:42 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 02:19:40 INFO  RequestController:59 - List of pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 02:19:43 INFO  RequestController:53 - List of non-pending requests for worker with ID:10 was called for and information was sent to caller
+2020-09-05 02:19:50 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-05 02:19:53 INFO  RequestController:75 - A request to update a request was received
+2020-09-05 02:19:53 INFO  RequestService:54 - Request with ID: 6sucessfully updated
+2020-09-05 02:19:53 INFO  RequestController:77 - Request [reqId=6, workerId=4, amount=300.0, description=New carpet for office, status=APPROVED, resolvedBy=Gwen Dover] updated and sent to caller
+2020-09-05 02:19:53 INFO  RequestController:78 - New updated list of pending request was sent to caller successfuly
+2020-09-05 02:19:55 INFO  RequestController:75 - A request to update a request was received
+2020-09-05 02:19:55 INFO  RequestService:54 - Request with ID: 11sucessfully updated
+2020-09-05 02:19:55 INFO  RequestController:77 - Request [reqId=11, workerId=2, amount=300.0, description=New printer for office, status=DENIED, resolvedBy=Gwen Dover] updated and sent to caller
+2020-09-05 02:19:55 INFO  RequestController:78 - New updated list of pending request was sent to caller successfuly
+2020-09-05 02:19:58 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-05 02:21:13 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-05 02:21:15 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-05 02:21:17 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-05 02:22:22 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-05 02:22:23 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-06 19:35:46 INFO  RequestController:59 - List of pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 19:35:48 INFO  RequestController:53 - List of non-pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:14:57 INFO  RequestController:66 - A request to add a request was received
+2020-09-06 21:14:57 INFO  RequestService:47 - Request with ID: 41sucessfully inserted
+2020-09-06 21:14:57 INFO  RequestController:68 - Request [reqId=41, workerId=4, amount=40.0, description=Water case for office, status=PENDING, resolvedBy=--] created and sent to caller
+2020-09-06 21:15:02 INFO  RequestController:59 - List of pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:15:04 INFO  RequestController:53 - List of non-pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:15:24 INFO  RequestController:40 - List of all pending requests was called for and information was sent to caller
+2020-09-06 21:15:33 INFO  RequestController:75 - A request to update a request was received
+2020-09-06 21:15:33 INFO  RequestService:54 - Request with ID: 9sucessfully updated
+2020-09-06 21:15:33 INFO  RequestController:77 - Request [reqId=9, workerId=4, amount=200.0, description=New printer for office, status=DENIED, resolvedBy=Gwen Dover] updated and sent to caller
+2020-09-06 21:15:33 INFO  RequestController:78 - New updated list of pending request was sent to caller successfuly
+2020-09-06 21:15:39 INFO  RequestController:46 - List of all non-pending requests was called for and information was sent to caller
+2020-09-06 21:17:31 INFO  RequestController:59 - List of pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:17:39 INFO  RequestController:53 - List of non-pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:17:48 INFO  RequestController:59 - List of pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:34:06 INFO  RequestController:59 - List of pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:35:41 INFO  RequestController:53 - List of non-pending requests for worker with ID:4 was called for and information was sent to caller
+2020-09-06 21:36:41 INFO  RequestController:66 - A request to add a request was received
+2020-09-06 21:36:41 INFO  RequestService:47 - Request with ID: 42sucessfully inserted
+2020-09-06 21:36:41 INFO  RequestController:68 - Request [reqId=42, workerId=4, amount=40.0, description=Candy, status=PENDING, resolvedBy=--] created and sent to caller

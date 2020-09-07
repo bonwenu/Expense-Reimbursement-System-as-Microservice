@@ -1,1 +1,137 @@
-/* You can add global styles to this file, and also import other style files */
+/* Created by Benjamin Onwenu on October 4, 2018 */
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+
+div.manager-inner {
+  background-color: rgb(235, 226, 146);
+}
+
+div.manager-outer {
+  float: right; 
+  margin-right: 2in;
+  background-color: rgb(235, 235, 203);
+  border: solid rgb(235, 235, 203) .15in;
+}
+
+div.employee-inner {
+  background-color: rgb(66, 190, 248);;
+}
+div.employee-outer {
+  float: left; 
+  margin-right: 2in;
+  background-color: rgb(182, 232, 255);;
+  border: solid rgb(182, 232, 255) .15in;
+}
+
+ hr.top {
+  border: solid 1mm rgb(253, 253, 162);
+  background-color:rgb(32, 43, 138);
+  height:3mm
+ }
+
+ hr.bottom {
+  border: solid 1mm rgb(253, 253, 162);
+  background-color:rgb(32, 43, 138);
+  height:2.5mm
+ }
+
+ html {
+  background-color:#689CD2; 
+ }
+ 
+ h1{
+   text-align: center; 
+   font-size: 2.1em; 
+   font-family: Arial, Helvetica, sans-serif;
+   color:#284C73;
+   padding:30px;
+   
+ }
+ h1.noP{
+   text-align: center; 
+   font-size: 2.1em; 
+   font-family: Arial, Helvetica, sans-serif;
+   color:#284C73;
+   
+   
+ }
+ 
+ h2{
+   text-align:center; 
+   font-size: 1.5em; 
+   font-family: Arial, Helvetica, sans-serif;
+   color:#284C73;
+ }
+ 
+ h2.h2L {
+   text-align: left;
+ }
+ 
+ body {
+   background-color:#689CD2; 
+   color:black;
+ }
+
+ body.blue {
+  background-color:#689CD2; 
+  color:black;
+  padding-top:1px;
+}
+ 
+ li a.navR { 
+   display: block; 
+   color: white; 
+   text-align: right; 
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a.nav {
+   display: block; 
+   color: white; 
+   text-align: left; 
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ a:link {
+   color: #A66200;
+ }
+ 
+ a:visited {
+   color: #A66F00;
+ }
+ 
+ ul.ulBlack{
+ color: black;
+ }
+ 
+ ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+   top: 0px;
+   width: 100%;
+   margin-bottom: 30px;
+   overflow: hidden;
+   background-color: rgb(10, 0, 65);
+ }
+ 
+ li.nav {
+   float: left;
+   
+ }
+ 
+ li.navR {
+   float: right;
+ }
+ 
+ p {
+   color:black;
+   margin:30px;
+ }
+ 
+ li a:hover {
+   background-color:#A66100;
+ }
+ 
