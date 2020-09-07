@@ -11,7 +11,7 @@ reimbursement.
 - Implemented the Front Controller design pattern by using Spring MVC.
 - Created client pages using HTML, CSS, Typescript by using Angular Framework.
 - Populated client pages with information by making calls to Rest API.
-- Tested both validation methods and DAO methods using JUnit framework.
+- Secured REST endpoints with Basic Authentication using Spring Security.
 - Deployed Front End to AWS S3 bucket and microservice to AWS EC2.
 
 ## Features 
