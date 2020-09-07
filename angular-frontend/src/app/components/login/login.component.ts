@@ -42,38 +42,10 @@ export class LoginComponent implements OnInit, AfterViewInit  {
   checkLogin() {
     let valid = false;
 
-    this.loginservice.authenticate2(this.username, this.password).subscribe((data:Worker) => {
-      if(data) {
-        let authString = 'Basic ' + btoa('ers_admin:password');
-        sessionStorage.setItem('basicauth', authString);
-        sessionStorage.setItem('username', data.username);
-        sessionStorage.setItem('title', data.title);
-        sessionStorage.setItem('workerId', data.workerId.toString());
-        sessionStorage.setItem("loggedAs", "BL Employee");
-        valid = true;
-        this.authorize();
-      }
-
-      else {
-        this.invalidCredentials = true;
-      }
-    });
+    this.loginservice.authenticate(this.username, this.password);
   }
   
-  authorize() { 
-    let x = sessionStorage.getItem("title");
-    
-    
-    if (x === "Manager") { 
-      this.router.navigateByUrl("/mHome")
-      this.invalidLogin = false
-    }
-    else {
-      this.router.navigateByUrl("/eHome")
-      this.invalidLogin = false
-      } 
-      
-    }
+  
     
   }
 

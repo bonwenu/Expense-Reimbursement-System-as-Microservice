@@ -27,7 +27,7 @@
           &nbsp;&nbsp; Password : <input type="password" name="password" [(ngModel)]="password">
         </div>
         <br>
-        <h6 *ngIf = invalidCredentials style = "color: red; margin-left: 1in;">Inavlid credentials!</h6>
+        <h6 *ngIf = loginservice.invalidCredentials style = "color: red; margin-left: 1in;">Inavlid credentials!</h6>
         <button style ="margin-left: 2.2in;" (click)=checkLogin() class="btn btn-success">
           Login
         </button>
