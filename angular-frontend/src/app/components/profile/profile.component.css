@@ -5,3 +5,9 @@ display: block;
 line-height: 1.428571429;
 color: #999;
 }
+
+.profile-img {
+    margin-right: 5in;
+    width: 120px;
+    height: 120px;
+}

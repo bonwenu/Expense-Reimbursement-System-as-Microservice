@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <title>Blue Leaf's Company Portal Profile Page</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <hr class="top">
     
-</head>
-<body class = "blue">
-    <hr class = "top">
+    <h2 class="border-title"><b>Profile</b></h2>
     
-    <h2 style ="text-align: left; padding-left: 4mm" ><b>Profile</b></h2>
-    
-    <hr class = "bottom">
+    <hr class="bottom">
 	<br> 
     <div class="container">
     <div class="container">
@@ -26,10 +13,10 @@
                 <div class="well well-sm">
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
-                            <img src="https://thesocietypages.org/socimages/files/2009/05/nopic_192.gif" alt="" class="img-rounded img-responsive" />
+                            <img style="margin-right: 20px;" src="../../../assets/profile.gif" alt="" class="img-rounded img-responsive profile-img" />
                         </div>
                         <div class="col-sm-6 col-md-8">
-                            <h4 style = "margin-left: 0.3in"><b>{{profileData?.firstName}} {{profileData?.lastName}}</b></h4>
+                            <h4 ><b>{{profileData?.firstName}} {{profileData?.lastName}}</b></h4>
                             
                             
                             <p> 
@@ -47,7 +34,7 @@
                             <!-- Split button -->
                             <div class="btn-group">
                                 
-                                <button style = "margin-left: 1.5in; margin-top: 0.5in;" *ngIf = !editActive type="button" class="btn btn-primary" (click) = edit()>
+                                <button style = "margin-left: 1.5in; margin-top: 0.5in;" *ngIf = !editActive type="button" class="btn btn-success" (click) = edit()>
                                     Edit</button>
                             </div>
                         </div>
@@ -89,6 +76,3 @@
 
   
 
-    
-</body>
-</html>

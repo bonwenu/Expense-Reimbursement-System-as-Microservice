@@ -49,13 +49,14 @@ export class ProfileComponent implements OnInit {
   testForNoChange() {
 
     let x = this.oldData;
-
+    /*
     if (this.worker.firstName === undefined) {
       this.worker.firstName = x.firstName;
     }
     if (this.worker.lastName === undefined) {
       this.worker.lastName = x.lastName;
     }
+    */
     if (this.worker.streetAddress === undefined) {
       this.worker.streetAddress = x.streetAddress;
     }
@@ -74,6 +75,8 @@ export class ProfileComponent implements OnInit {
     if (this.worker.email === undefined) {
       this.worker.email = x.email;
     }
+    this.worker.firstName = x.firstName;
+    this.worker.lastName = x.lastName;
     this.worker.workerId = x.workerId;
     this.worker.title = x.title;
     this.worker.username= x.username;
