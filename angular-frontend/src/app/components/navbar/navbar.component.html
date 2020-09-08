@@ -1,25 +1,20 @@
 
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand">Blue Leaft</a>
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a routerLink="/eHome" class="nav-link">Home</a>
-        </li>
-        <li class= "nav-item active">
-          <a *ngIf="loginService.isUserLoggedIn()" routerLink="/profile" class="nav-link">Profile</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
-        <button class="btn btn-outline-success my-2 my-sm-0"  *ngIf="!loginService.isUserLoggedIn()" routerLink="/login" >Log In</button>
-        -->
-        <button class="btn btn-outline-warning my-2 my-sm-0"  *ngIf="loginService.isUserLoggedIn()" routerLink="/logout" >Log Out</button>
-      </form>
-    </div>
-  </nav>
 
-   
+   <header class="site-header">
+    <nav>
+        <div class="logo">
+            <h1>Blue Leaf &nbsp;&nbsp;<img class="logo" src="../../../assets/logo.png"></h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="link"><a routerLink="/eHome" class="nav-link">Home</a></li>
+                <li class="link" *ngIf="loginService.isUserLoggedIn()" ><a routerLink="/profile" class="nav-link">Profile</a></li>
+                <li class="link"><a class="nav-link">About Us</a></li>
+                <li class="link"><a class="nav-link">Contact Us</a></li>
+                <li><input class="search" type="search" placeholder="Search" aria-label="Search"> </li>
+                <li><button class="logout" *ngIf="loginService.isUserLoggedIn()" routerLink="/logout">Logout</button></li>
+            </ul>
+            
+        </div>
+    </nav>
+</header>

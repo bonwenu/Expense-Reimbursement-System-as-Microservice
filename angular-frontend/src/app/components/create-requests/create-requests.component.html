@@ -1,66 +1,54 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset='utf-8'>
-	<title>Create Request</title>
+<hr class="top">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<h2 class="border-title"><b>Reimbursement Request</b></h2>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<hr class="bottom">
+<br>
+<button style='margin-left: 20px' class="btn btn-primary" (click)=back() type="button">Back</button>
+<br><br>
 
-</head>
-<body class = "blue">
-    <hr class = "top">
-    
-    <h2 style ="text-align: left; padding-left: 4mm" ><b>Reimbursement Request</b></h2>
-    
-    <hr class = "bottom">
-	<br> 
-	<button style = 'margin-left: 20px' class="btn btn-primary" (click) = back() type="button">Back</button>
-		<br><br>
-	
 
 <div class="container">
-	
-	
-	<form >
-        <label>Amount</label><br>
-	    <input [(ngModel)]="request.amount" placeholder="Amount" class="form-control" type="number" name="amount"><br><br>
-	    <label>Description</label><br>
-	    <input [(ngModel)]="request.description" placeholder="Description" class="form-control" type="text" name="description"><br><br>
-	    <button (click)=create(request) class="btn btn-primary">Add Request</button> 
-    </form>
+
+
+	<form>
+		<label>Amount</label><br>
+		<input [(ngModel)]="request.amount" placeholder="Amount" class="form-control" type="number"
+			name="amount"><br><br>
+		<label>Description</label><br>
+		<input [(ngModel)]="request.description" placeholder="Description" class="form-control" type="text"
+			name="description"><br><br>
+		<button (click)=create(request) class="btn btn-primary">Add Request</button>
+	</form>
 
 </div>
 
-<h1 style  ="margin-left: 70px">Newly Created Requests</h1>
+<br><br>
 
-		<div class="container">
-	
-	
-			<table class = "table table-striped" id = "reqPending-table">
-				<tr id="header-row">
-					<th>Request ID</th>
-					<th>Worker ID</th>
-					<th>Amount</th>
-					<th>Description</th>
-					<th>Status</th>
-					<th>Resolved By</th>
-				</tr>
-				<tr *ngFor = "let r of requests">
-					<td>{{r.reqId}}</td>
-					<td>{{r.workerId}}</td>
-					<td>{{r.amount | currency:'USD' }}</td>
-					<td>{{r.description}}</td>
-					<td>{{r.status}}</td>
-					<td>{{r.resolvedBy}}</td>
-				</tr>
-			</table>
-		</div> 
+<h1 class="table-title">Newly Created Requests</h1>
+
+<div class="container">
+
+
+	<table class="table table-striped" id="reqPending-table">
+		<thead class="thead-light ">
+			<tr id="header-row">
+				<th>Request ID</th>
+				<th>Worker ID</th>
+				<th>Amount</th>
+				<th>Description</th>
+				<th>Status</th>
+				<th>Resolved By</th>
+			</tr>
+		</thead>
+		<tr *ngFor="let r of requests">
+			<td>{{r.reqId}}</td>
+			<td>{{r.workerId}}</td>
+			<td>{{r.amount | currency:'USD' }}</td>
+			<td>{{r.description}}</td>
+			<td>{{r.status}}</td>
+			<td>{{r.resolvedBy}}</td>
+		</tr>
+	</table>
+</div>
 |
-
-
-</body>
-</html>

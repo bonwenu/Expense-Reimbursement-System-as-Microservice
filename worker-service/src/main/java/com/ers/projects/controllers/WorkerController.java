@@ -33,7 +33,7 @@ public class WorkerController {
 	public List<Worker> getAllWorkers() {
 		List<Worker> workers = ws.getAllWorkers();
 		if(workers == null) {
-			log.info("List of all workers was called but failed to load list-- Empty list.");
+			log.error("List of all workers was called but failed to load list-- Empty list.");
 		}
 		else {
 			log.info("List of all workers was called for and sent successfully.");
