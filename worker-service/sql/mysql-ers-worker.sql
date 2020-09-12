@@ -1,5 +1,5 @@
 use ers_worker;
-drop table worker;
+drop table if exists worker;
 
 create table worker (
        worker_id integer not null auto_increment,

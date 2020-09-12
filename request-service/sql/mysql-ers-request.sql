@@ -1,6 +1,5 @@
-
 use ers_request;
-drop table request;
+drop table if exists request;
 
 create table request (
        req_id integer not null auto_increment,
