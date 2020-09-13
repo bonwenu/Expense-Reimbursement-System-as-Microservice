@@ -1,3 +1,6 @@
+drop schema if exists ers_worker;
+create schema ers_worker;
+
 use ers_worker;
 drop table if exists worker;
 

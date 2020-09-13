@@ -10,8 +10,8 @@ export class WorkerService {
 
   constructor(private http: HttpClient) { }
 
-  //private baseUrl = "http://3.18.225.149:8081/api/workers";
-  private baseUrl = "http://localhost:8081/api/workers";
+  private baseUrl = "http://3.137.138.240:8081/api/workers";
+  //private baseUrl = "http://localhost:8081/api/workers";
 
 
   getAllEmployees(): Observable<Worker[]> {
