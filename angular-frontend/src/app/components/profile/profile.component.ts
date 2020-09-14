@@ -20,7 +20,6 @@ export class ProfileComponent implements OnInit {
     // Gets user profile data;
     this.workerService.getEmployeeById(Number(sessionStorage.getItem("workerId"))).subscribe(data => {
       this.profileData = data;
-      console.log("Profile data loaded");
       this.oldData= this.profileData;
     });
   }

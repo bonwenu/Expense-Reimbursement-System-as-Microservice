@@ -11,8 +11,8 @@ export class AuthenticationService {
   constructor(private http:HttpClient, private router:Router) { }
 
   invalidCredentials:boolean = false;
-  private url = "http://localhost:8081/authenticate"
-  //private baseUrl = "http://3.18.225.149:8081/authenticate";
+  //private url = "http://localhost:8081/authenticate"
+  private url = "http://18.224.228.120:8081/authenticate";
   private authToken = "ZXJzX2FkbWluOnBhc3N3b3Jk";
 
 

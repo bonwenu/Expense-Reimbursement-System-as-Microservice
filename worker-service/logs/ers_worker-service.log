@@ -1,0 +1,44 @@
+2020-09-13 23:35:02 INFO  WorkerService:66 - Worker with username: benjamin724 requested and found.
+2020-09-13 23:35:02 INFO  LogInController:30 - Success: credentials for benjamin724 matched.
+2020-09-13 23:35:06 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:35:06 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:35:06 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:35:22 INFO  WorkerController:68 - A request to update a worker personal information was received
+2020-09-13 23:35:22 INFO  WorkerService:57 - Worker with ID: 5 sucessfully updated
+2020-09-13 23:35:22 INFO  WorkerController:70 - Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] updated and sent to caller
+2020-09-13 23:37:30 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:37:30 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:37:30 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:37:45 INFO  WorkerController:68 - A request to update a worker personal information was received
+2020-09-13 23:37:45 INFO  WorkerService:57 - Worker with ID: 5 sucessfully updated
+2020-09-13 23:37:45 INFO  WorkerController:70 - Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] updated and sent to caller
+2020-09-13 23:38:39 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:38:39 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:38:39 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:38:54 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:38:54 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:38:54 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:39:12 INFO  WorkerController:68 - A request to update a worker personal information was received
+2020-09-13 23:39:12 INFO  WorkerService:57 - Worker with ID: 5 sucessfully updated
+2020-09-13 23:39:12 INFO  WorkerController:70 - Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] updated and sent to caller
+2020-09-13 23:42:01 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:42:01 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:42:01 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:42:10 INFO  WorkerController:68 - A request to update a worker personal information was received
+2020-09-13 23:42:10 INFO  WorkerService:57 - Worker with ID: 5 sucessfully updated
+2020-09-13 23:42:10 INFO  WorkerController:70 - Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] updated and sent to caller
+2020-09-13 23:43:50 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:43:50 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:43:50 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:44:05 INFO  WorkerController:68 - A request to update a worker personal information was received
+2020-09-13 23:44:05 INFO  WorkerService:57 - Worker with ID: 5 sucessfully updated
+2020-09-13 23:44:05 INFO  WorkerController:70 - Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] updated and sent to caller
+2020-09-13 23:46:46 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:46:46 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:46:46 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:46:59 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:46:59 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:46:59 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent
+2020-09-13 23:47:17 INFO  WorkerController:46 - Get request for worker with ID: 5 was called
+2020-09-13 23:47:17 INFO  WorkerService:41 - Worker with ID: 5 requested and found.
+2020-09-13 23:47:17 INFO  WorkerController:53 - Worker = Worker [workerId=5, lastName=Pope, firstName=Steven, username=benjamin724, passCode=benchee5454, title=IT Tech, reportsTo=10, hireDate=5/2/2014, streetAddress=66474 Randy Pass, city=Boston, state=Massachusetts, zip=12345, phone=614-772-4224, email=ben4@admin.ch] was sent

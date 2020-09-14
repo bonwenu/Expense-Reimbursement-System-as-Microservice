@@ -10,8 +10,8 @@ export class RequestService {
 
   constructor(private http: HttpClient) { }
 
-  //private baseUrl = "http://3.18.225.149:8082/api/requests";
-  private baseUrl = "http://localhost:8082/api/requests";
+  private baseUrl = "http://3.137.138.240:8082/api/requests";
+  //private baseUrl = "http://localhost:8082/api/requests";
 
   getAllRequests(): Observable<Request[]> {
 

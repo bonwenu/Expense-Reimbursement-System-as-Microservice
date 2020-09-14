@@ -1,3 +1,6 @@
+drop schema if exists ers_request;
+create schema ers_request;
+
 use ers_request;
 drop table if exists request;
 
