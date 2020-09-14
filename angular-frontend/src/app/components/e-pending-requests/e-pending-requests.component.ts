@@ -15,12 +15,8 @@ export class EPendingRequestsComponent implements OnInit {
   constructor(private router: Router, private requestService: RequestService) { }
 
   ngOnInit() {
-    console.log(sessionStorage.getItem("workerId"));
     this.requestService.getPendingRequestsById(Number(sessionStorage.getItem("workerId"))).subscribe((data:Request[]) => {
       this.requests = data;
-      console.log(this.requests);
-      console.log("Pending requests have been loaded");
-    
   });
     
 }

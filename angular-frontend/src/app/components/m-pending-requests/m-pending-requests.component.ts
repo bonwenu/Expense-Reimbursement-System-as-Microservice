@@ -26,8 +26,6 @@ export class MPendingRequestsComponent implements OnInit {
     }
     this.requestService.getAllPendingRequests().subscribe((data:Request[]) => {
       this.requests = data;
-      
-      console.log("Pending requests have been loaded");
 
     });
     let id = Number(sessionStorage.getItem("workerId"))
@@ -43,7 +41,6 @@ export class MPendingRequestsComponent implements OnInit {
     r.status = "APPROVED"
     this.requestService.updateRequest(r).subscribe((data:Request[]) => {
       this.requests = data;
-      console.log("Request approved");
     });
     
   }
@@ -53,7 +50,6 @@ export class MPendingRequestsComponent implements OnInit {
     r.status = "DENIED"
     this.requestService.updateRequest(r).subscribe((data:Request[]) => {
       this.requests = data;
-      console.log("Request denied");
     });
   }
 
