@@ -37,5 +37,5 @@ reimbursement.
 
 ### Technologies
 Frontend: HTML, CSS, Typescript, Angular 7  
-Backend: Java, Maven, Spring, Hibernate, Oracle SQL  
+Backend: Java, Maven, Spring, Hibernate, MySQL  
 Devops: Amazon Web Services
